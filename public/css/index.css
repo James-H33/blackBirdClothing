@@ -12,7 +12,7 @@ h1, p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: initial;
   position: relative;
   transition: transform 0.5s ease; }
 
@@ -158,7 +158,7 @@ h1, p {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: initial;
   border-radius: 50%; }
 
 .price {
@@ -257,6 +257,17 @@ footer {
   transition: transform 0.5s ease; }
 
 @media (min-width: 769px) {
+  .introContainer {
+    width: 100%;
+    height: 600px;
+    background: url("https://images.unsplash.com/photo-1441984344779-4716bd9e6b04?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=e84c9acb6df4e0cad2fdb8b99d88579c");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transition: transform 0.5s ease; }
+
   .birdLogo {
     width: 200px;
     height: 200px;
